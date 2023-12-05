@@ -1,7 +1,6 @@
 use std::fs;
 
 fn main() {
-    println!("Hola mama!");
     let input = fs::read_to_string("input.txt")
                 .expect("Deberia haber podido leer el fichero owo");
     let mut aux_val = 0;
@@ -20,5 +19,5 @@ fn main() {
             }
         }
     }
-    println!("La suma es {aux_val}");
+    println!("The sum is: {aux_val}");
 }
